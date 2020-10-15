@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	
+}
+#header{
+    width: 100%;
+    height: 90vh;
+    background-image: url("img_header.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    position: static;
+    opacity: .9;
+    
+}
+#text{
+    font-size: 3em;
+    text-align: center;
+    color: rgb(207, 209, 196);
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-weight: bolder;
+    opacity: .9;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#header_item{
+    height: 90vh;
+    background-color: rgba(3, 3, 3, 0.479);
+    position: relative;
+    display:flex;
+    
+}
+#main{
+    background-color: rgba(22, 17, 17, 0.959);
+    height: 2600px;
+    background-image: url("m1.jpg");
+    width: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    
+}
+
+#contents{
+    
+    display: flex;
+    height:2500px;
+    width: 100%;
+    /* background-color: rgb(173, 173, 169); */
+     align-items: center;
+	/* justify-content: center; */
+    flex-direction: column;
+    margin: auto;
+
+}
+.box{
+    
+    opacity: .9;
+    height: 350px;
+    width: 89%;
+    background-color: rgba(255, 255, 255, 0.993);
+    margin: auto;
+  
+    
+
+}
+#des{
+    color: rgb(45, 113, 216);
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+
+}
+#footer{
+    display: flex;
+    background-image: url("footer2.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#foot_des{
+    height: 200px;
+    width: 25%;
+    align-items: center;
+	/* justify-content: center; */
+    flex-direction: row;
+    margin: auto;
+}
+#text_format{
+    color: lightcyan;
+    font-size: 2em;
+    text-align: center;
+    /* font-weight: normal; */
+
+}
+.foot_head h6{
+    display: block;
+	background-color: rgb(44, 44, 44);
+	padding: 5px;
+	font-size: 13px;
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+    text-align: center;
+    
+
+}
+
