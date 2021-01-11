@@ -5,7 +5,7 @@
 }
 #header{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url("img_header.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
@@ -36,7 +36,7 @@
 #main{
     background-color: rgba(22, 17, 17, 0.959);
     height: 2600px;
-    background-image: url("m1.jpg");
+    /* background-image: url("m1.jpg"); */
     width: 100%;
     background-position: center;
   background-repeat: no-repeat;
@@ -56,6 +56,9 @@
     flex-direction: column;
     margin: auto;
 
+}
+.nav justify-content-end{
+    color: gray;
 }
 .box{
     
