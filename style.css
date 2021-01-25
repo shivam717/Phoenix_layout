@@ -28,7 +28,7 @@
 }
 #header_item{
     height: 90vh;
-    background-color: red;
+    background-color: rgba(0, 195, 255, 0.253);
     position: relative;
     display:flex;
     
